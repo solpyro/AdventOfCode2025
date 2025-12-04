@@ -22,6 +22,8 @@ I understood the assignment, but I get an AI star because I asked GPT to impleme
 
 Day 3 and already I feel the call of recursion. Very satisfying to modify part 1, run it and get the correct answer on the first try.
 
-## Day 4: Printing Department
+## Day 4: Printing Department ⭐⭐
 
 A pretty straightforward field automata exercise, with part 1 being step 1 of the phase change.
+
+And part 2 was pretty simple as well.
