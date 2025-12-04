@@ -21,3 +21,7 @@ Laziness begets laziness, and I let GPT-4.1 complete the second half as well. Re
 I understood the assignment, but I get an AI star because I asked GPT to implement the `maxJoltage` function, based on comments that outlined the algorithm. It was lucky I knew the algorithm, since I had to coach Copilot through almost every step of the implementation.
 
 Day 3 and already I feel the call of recursion. Very satisfying to modify part 1, run it and get the correct answer on the first try.
+
+## Day 4: Printing Department
+
+A pretty straightforward field automata exercise, with part 1 being step 1 of the phase change.
