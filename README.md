@@ -28,6 +28,8 @@ A pretty straightforward field automata exercise, with part 1 being step 1 of th
 
 And part 2 was pretty simple as well.
 
-## Day 5: Cafeteria ⭐
+## Day 5: Cafeteria ⭐✨
 
 The parser was pretty much written by hitting <kbd>tab</kbd> to accept copilot's suggestions, matching my own plans.
+
+Again, the right strategy was in my head, but the 'support'from copilot felt a little _too_ powerful to award myself a normal star
