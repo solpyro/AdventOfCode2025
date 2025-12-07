@@ -27,3 +27,7 @@ Day 3 and already I feel the call of recursion. Very satisfying to modify part 1
 A pretty straightforward field automata exercise, with part 1 being step 1 of the phase change.
 
 And part 2 was pretty simple as well.
+
+## Day 6: Trash Compactor ⭐
+
+Part 1 was straight forward, which makes me nervous for part 2.
