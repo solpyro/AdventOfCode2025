@@ -28,6 +28,8 @@ A pretty straightforward field automata exercise, with part 1 being step 1 of th
 
 And part 2 was pretty simple as well.
 
-## Day 6: Trash Compactor ⭐
+## Day 6: Trash Compactor ⭐✨
 
 Part 1 was straight forward, which makes me nervous for part 2.
+
+I was right to be nervous. I guess the simplest way to solve this as exactly as described;consuming a column at a time, evaluating the number and waiting until the operator before combining the set. GPT helped with rotating the input, processing the data and debugging the problems.
