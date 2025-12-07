@@ -37,3 +37,5 @@ I was right to be nervous. I guess the simplest way to solve this as exactly as 
 ## Day 7: Laboratories ✨
 
 I had most of the algorithm in my head, but GPT wrote it out for me and also debuggied a couple of issues. I still had to spot the incorrect third stream that they'd managed to sneak in.
+
+Part 2 was all me, since it was one of the bugs I dealt with in the first part (not removing duplicate streams). I got the right answer for the example, but there's clearly some optimization to be done, as the real data crashed out having exhaused the available RAM.
