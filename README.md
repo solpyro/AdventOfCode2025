@@ -33,3 +33,16 @@ And part 2 was pretty simple as well.
 The parser was pretty much written by hitting <kbd>tab</kbd> to accept copilot's suggestions, matching my own plans.
 
 Again, the right strategy was in my head, but the 'support'from copilot felt a little _too_ powerful to award myself a normal star
+
+## Day 6: Trash Compactor ⭐✨
+
+Part 1 was straight forward, which makes me nervous for part 2.
+
+I was right to be nervous. I guess the simplest way to solve this as exactly as described;consuming a column at a time, evaluating the number and waiting until the operator before combining the set. GPT helped with rotating the input, processing the data and debugging the problems.
+
+## Day 7: Laboratories ✨
+
+I had most of the algorithm in my head, but GPT wrote it out for me and also debugged a couple of issues. I still had to spot the incorrect third stream that they'd managed to sneak in.
+
+Part 2 was all me, since it was one of the bugs I dealt with in the first part (not removing duplicate streams). I got the right answer for the example, but there's clearly some optimization to be done, as the real data crashed out having exhausted the available RAM.
+
