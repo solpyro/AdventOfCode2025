@@ -46,3 +46,6 @@ I had most of the algorithm in my head, but GPT wrote it out for me and also deb
 
 Part 2 was all me, since it was one of the bugs I dealt with in the first part (not removing duplicate streams). I got the right answer for the example, but there's clearly some optimization to be done, as the real data crashed out having exhausted the available RAM.
 
+## Day 8: Playground ⭐
+
+Copilot tricked me into trying the Manhattan distance, but after preparing the data set, we had obviously wrong starting points for the test data, so I replaced it with the squared distance. I also tricked myself into arranging a much more complex dataset than I needed. After a rewrite, the solution came easily.
