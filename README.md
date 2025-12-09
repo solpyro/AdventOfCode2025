@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-This year I'll be quick & dirty, writing in JS (not even typescript) and using work's copilot assist.
+This year I'll be quick & dirty, writing in JS (not even typescript) and using work's copilot subscription to assist.
 
 Use `node {day file}` in the terminal to run a day's solution in VS Code
 
@@ -49,3 +49,8 @@ Part 2 was all me, since it was one of the bugs I dealt with in the first part (
 ## Day 8: Playground ⭐
 
 Copilot tricked me into trying the Manhattan distance, but after preparing the data set, we had obviously wrong starting points for the test data, so I replaced it with the squared distance. I also tricked myself into arranging a much more complex dataset than I needed. After a rewrite, the solution came easily.
+
+## Day 9: Movie Theater ⭐
+
+Hot off of solving Day 8, Part 1, building the _correct_ data model was simple enough.
+
