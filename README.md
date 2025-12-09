@@ -54,3 +54,4 @@ Copilot tricked me into trying the Manhattan distance, but after preparing the d
 
 Hot off of solving Day 8, Part 1, building the _correct_ data model was simple enough.
 
+With part 2 being so graphically challenging, I couldn't resist also generating the images of the theatre floor. The sizes are seemingly huge here as well, to the point that I was unable to write a complete Set of green tiles _or_ an image (starting from 0). Even reducing the canvas size to ignore the blank space before the first red tiles wasn't enough.
