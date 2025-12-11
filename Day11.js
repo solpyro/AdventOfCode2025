@@ -35,6 +35,11 @@ function part1(nodes) {
 }
 
 function part2(nodes) {
+    // Possible strategy is to find paths from `svr` to `fft` or `dac` and then from those to `out`, to reduce the stack depth.
+    // This requires changes to `findAllPaths` to gracefully handle encounters with `out` nodes since they have no children.
+    // const paths = findAllPaths(nodes, 'svr', 'fft');
+    // console.log("Total paths from 'svr' to 'fft':", paths.length);
+
     const paths = findAllPaths(nodes, 'svr', 'out');
     console.log("Total paths from 'svr' to 'out' that pass through 'dac' & 'fft':", paths.filter(path => path.includes('dac') && path.includes('fft')).length);
 }
