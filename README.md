@@ -59,3 +59,7 @@ With part 2 being so graphically challenging, I couldn't resist also generating 
 ## Day 10: Factory
 
 I could map the input data at least, but I have no idea how to start figuring out the solution to part 1. Even blindly accepting GPT's algorithm didn't give me anything useful.
+
+## Day 11: Reactor ✨
+
+I very much tab-driven development for part 1. I knew how the parser should be built and accepted Copilot's correct suggestions (with a few manual nudges here and there). I had the shadow of a memory of the path finding algorithm, but I'd obviously structured my code and named my variables well enough that Copilot was able to infer my intentions and implemented the algorithm for me.
