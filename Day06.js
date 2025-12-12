@@ -1,3 +1,5 @@
+const { fetchInput } = require('./fetchInput.js');
+
 function parseInput_part1(lines) {
     const numbers = lines.slice(0, -1).map(line =>  line.trim().split(/\s+/).map(Number));
     const operators = lines[lines.length - 1].trim().split(/\s+/);
@@ -92,3 +94,7 @@ const testInput = `123 328  51 64
   6 98  215 314
 *   +   *   +  `;
 run(testInput);
+
+fetchInput(6, (input) => {
+    run(input);
+});

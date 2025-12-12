@@ -65,3 +65,7 @@ I could map the input data at least, but I have no idea how to start figuring ou
 I very much tab-driven development for part 1. I knew how the parser should be built and accepted Copilot's correct suggestions (with a few manual nudges here and there). I had the shadow of a memory of the path finding algorithm, but I'd obviously structured my code and named my variables well enough that Copilot was able to infer my intentions and implemented the algorithm for me.
 
 I naively thought that part 2 was _much easier, even after I'd spotted the different starting point. "No matter," I thought, "I've already set up the pathfinder to take start and end nodes..." but when I'd actually refactored the code to allow for the part 2 test data, and confirmed a correct answer for that, it appears that running the path finding for `svr->out` is much more complex than `you->out`. After a long wait I got a `JavaScript heap out of memory` exception.
+
+## Day 12: Christmas Tree Farm
+
+_Why did it take until the end before I added a helper to directly pull the real input?_

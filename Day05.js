@@ -1,3 +1,5 @@
+const { fetchInput } = require('./fetchInput.js');
+
 function parseInput(input) {
     // Parse input into ranges and values
     const sections = input.trim().split('\n\n');
@@ -51,3 +53,7 @@ const testInput = `3-5
 32`;
 
 run(testInput);
+
+fetchInput(5, (input) => {
+    run(input);
+});

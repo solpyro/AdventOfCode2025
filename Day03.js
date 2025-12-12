@@ -1,3 +1,5 @@
+const { fetchInput } = require('./fetchInput.js');
+
 function maxJoltage(bank,tail) {
     const digits = bank.split('').map(Number); // Include all digits
     const first = Math.max(...digits.slice(0, -tail)); // Exclude the last digit for `first`
@@ -26,3 +28,7 @@ const testData = `987654321111111
 818181911112111`;
 
 run(testData);
+
+fetchInput(3, (input) => {
+    run(input);
+});

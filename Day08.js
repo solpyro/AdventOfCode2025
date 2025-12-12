@@ -1,3 +1,5 @@
+const { fetchInput } = require('./fetchInput.js');
+
 let calculateSquaredDistance = (pointA, pointB) => (pointA.x - pointB.x)**2 + (pointA.y - pointB.y)**2 + (pointA.z - pointB.z)**2;
 
 function parseInput(input) {
@@ -50,6 +52,7 @@ function run(input, connections) {
     let distanceBetweenPoints = parseInput(input);
     
     let circuits = connectNClosestPoints(connections, distanceBetweenPoints);
+
     let multipliedSizeOfTop3 = circuits.sort((a, b) => b.length - a.length).slice(0, 3).reduce((a,b) => a*b.length, 1);
     console.log(`Part 1: ${multipliedSizeOfTop3}`); 
 }
@@ -75,3 +78,7 @@ const testInput = `162,817,812
 984,92,344
 425,690,689`;
 run(testInput, 10);
+
+fetchInput(8, (input) => {
+    run(input);
+});

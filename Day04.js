@@ -1,3 +1,5 @@
+const { fetchInput } = require('./fetchInput.js');
+
 function parseInput(input) {
     return input.split('\n').filter(line => line.trim() !== '')
     .map(line => line.split('').map(char => char === '@' ? 1 : 0));
@@ -71,3 +73,7 @@ const testInput = `..@@.@@@@.
 .@@@@@@@@.
 @.@.@@@.@.`;
 run(testInput);
+
+fetchInput(4, (input) => {
+    run(input);
+});

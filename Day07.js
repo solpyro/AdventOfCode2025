@@ -1,3 +1,5 @@
+const { fetchInput } = require('./fetchInput.js');
+
 function parseInput(input) {
     return input.trim().split('\n');
 }
@@ -70,3 +72,7 @@ const testData = `.......S.......
 .^.^.^.^.^...^.
 ...............`;
 run(testData);
+
+fetchInput(7, (input) => {
+    run(input);
+});

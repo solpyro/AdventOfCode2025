@@ -1,4 +1,4 @@
-
+const { fetchInput } = require('./fetchInput.js');
 
 function parseInput(input) {
     return input.split('\n').map(line => line.substring(1)*(line[0] === 'L' ? -1 : 1));
@@ -60,3 +60,7 @@ L99
 R14
 L82`;
 run(testInput);
+
+fetchInput(1, (input) => {
+    run(input);
+});

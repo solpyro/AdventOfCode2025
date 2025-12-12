@@ -1,4 +1,4 @@
-const path = require("path");
+const { fetchInput } = require('./fetchInput.js');
 
 function parseInput(input) {
     const lines = input.trim().split('\n').map(line => line.trim());
@@ -73,7 +73,8 @@ hhh: out`;
 const testNodes2 = parseInput(testData2);
 part2(testNodes2);
 
-const input = ``;
-// const nodes = parseInput(input);
-// part1(nodes);
-// part2(nodes);
+fetchInput(11, (input) => {
+    const nodes = parseInput(input);
+    part1(nodes);
+    part2(nodes);
+});

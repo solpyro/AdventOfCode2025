@@ -1,5 +1,7 @@
 const fs = require('fs');
 const { PNG } = require('pngjs');
+const { fetchInput } = require('./fetchInput.js');
+
 
 const parseInput = (input) => input.trim().split('\n').map(line => line.split(',').map(Number)).map(([x, y]) => ({x, y}));
 
@@ -207,3 +209,7 @@ let testInput = `7,1
 2,3
 7,3`;
 run(testInput);
+
+fetchInput(9, (input) => {
+    run(input);
+});
